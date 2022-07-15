@@ -12,8 +12,9 @@ export default {
 }
 </script>
 
-<style>
-    main{
+<style lang="scss" scoped>
+@import "../styles/variable.scss";
+      main{
         background-color: black;
     }
 </style>
