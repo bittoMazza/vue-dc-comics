@@ -67,11 +67,18 @@ export default {
 <style lang="scss" scoped>
 @import "../styles/variable.scss";
     nav ul{
+      margin: 0;
     li{
       display: inline-block;
-      padding: 10px;
+      padding: 0 10px;
       font-weight: bold;
       font-size: 14px;
+      margin:0 10px;
+
+      &:hover{
+        color: $mainColor;
+        
+      }
     }
   }
 

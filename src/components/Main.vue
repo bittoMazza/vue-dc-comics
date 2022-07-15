@@ -4,7 +4,7 @@
             <h2 class="text-white fs-5"> -- > CONTENT GOES HERE   -- </h2>
         </div>
         <div class="buy-comics">
-            <div class="container d-flex justify-content-between align-items-center">
+            <div class="container d-flex justify-content-between align-items-center px-5">
                 <div v-for="(buyLink,index) in buyComics" :key="index">
                     <img class="logos-buy-comics" :src="buyLink.urlImg" alt="">
                     <span class="text-white"> {{ buyLink.text }}</span>

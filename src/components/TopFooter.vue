@@ -2,7 +2,7 @@
   <div class="top-footer-container">
       <div class="container">
         <div class="row">
-          <div class="col-7 py-5 d-flex">
+          <div class="col-6 py-5 d-flex">
             <div>
                 <ul>
                     <h3 class="text-white">DC COMICS</h3>
@@ -17,7 +17,7 @@
                     </li>
                 </ul>
             </div>
-            <div>
+            <div class="px-3">
                   <ul>
                     <h3 class="text-white">DC</h3>
                     <li v-for="(links,index) in dcInfo" :key="index">
@@ -34,7 +34,7 @@
                 </ul>
             </div>
           </div>
-          <div class="col-5">
+          <div class="col-6">
             <img class="position-relative logo-pa" src="../assets/img/dc-logo-bg.png" alt="">
           </div>
         </div>
