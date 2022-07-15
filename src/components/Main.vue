@@ -37,7 +37,7 @@ export default {
                 },
                  {
                     text:'DC POWER VISA',
-                    url:'../assets/img/buy-comics-digital-comics.png'
+                    url:''
                 },
             ]
         }
@@ -48,6 +48,8 @@ export default {
 <style lang="scss" scoped>
 @import "../styles/variable.scss";
       main{
+        position: relative;
+        z-index: 1;
         background-color: black;
     }
     .buy-comics{

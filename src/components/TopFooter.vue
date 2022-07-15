@@ -35,7 +35,7 @@
             </div>
           </div>
           <div class="col-5">
-            <img class="w-100 logo-pa" src="../assets/img/dc-logo-bg.png" alt="">
+            <img class="position-relative logo-pa" src="../assets/img/dc-logo-bg.png" alt="">
           </div>
         </div>
       </div>
@@ -78,7 +78,7 @@ export default {
             ],
             shopList:[
                 {
-                    text:'Characters',
+                    text:'Shop DC',
                     url:'#',
                 },
                 {
@@ -178,6 +178,6 @@ export default {
 
   .logo-pa{
     margin:-50px 0;
-
+    z-index: 0;
   }
 </style>
