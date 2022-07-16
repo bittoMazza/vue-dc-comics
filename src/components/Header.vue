@@ -2,10 +2,10 @@
   <header>
     <div class="d-flex justify-content-between align-items-center nav-container py-4 container">
       <img class="header-logo" src="../assets/img/dc-logo.png" alt="Logo dc">
-      <nav>
+      <nav class="header-nav">
         <ul>
           <li v-for="(links,index) in headerLinkList" :key="index">
-            {{ links.text }}
+           <a href="#">{{ links.text }}</a> 
           </li>
         </ul>
       </nav>
@@ -66,7 +66,11 @@ export default {
 
 <style lang="scss" scoped>
 @import "../styles/variable.scss";
-    nav ul{
+
+    .nav-container{
+      height: 120px;
+    }
+    .header-nav ul{
       margin: 0;
     li{
       display: inline-block;
@@ -74,11 +78,22 @@ export default {
       font-weight: bold;
       font-size: 14px;
       margin:0 10px;
+      padding: 45px 0;
 
-      &:hover{
-        color: $mainColor;
-        
-      }
+    
+     &:hover{
+       box-shadow: 0 4px 0 0px $mainColor;
+     }
+
+     &:hover a{
+          color: $mainColor;
+        }
+
+       a{
+          text-decoration: none;
+          color: black;
+        }
+      
     }
   }
 

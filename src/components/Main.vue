@@ -7,7 +7,7 @@
             <div class="container d-flex justify-content-between align-items-center px-5">
                 <div v-for="(buyLink,index) in buyComics" :key="index">
                     <img class="logos-buy-comics" :src="buyLink.urlImg" alt="">
-                    <span class="text-white"> {{ buyLink.text }}</span>
+                    <a href="#" class="text-white text-decoration-none"> {{ buyLink.text }}</a>
                 </div>
             </div>           
         </div>
