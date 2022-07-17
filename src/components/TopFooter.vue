@@ -35,7 +35,7 @@
             </div>
           </div>
           <div class="col-6">
-            <img class="position-relative logo-pa" src="../assets/img/dc-logo-bg.png" alt="">
+            <img class="w-100 position-relative logo-pa" src="../assets/img/dc-logo-bg.png" alt="">
           </div>
         </div>
       </div>
@@ -56,23 +56,23 @@ export default {
                     url:'#',
                 },
                  {
-                    text:'Characters',
+                    text:'Movies',
                     url:'#',
                 },
                  {
-                    text:'Characters',
+                    text:'TV',
                     url:'#',
                 },
                  {
-                    text:'Characters',
+                    text:'Games',
                     url:'#',
                 },
                 {
-                    text:'Characters',
+                    text:'Videos',
                     url:'#',
                 },
                 {
-                    text:'Characters',
+                    text:'News',
                     url:'#',
                 },
             ],
@@ -82,7 +82,7 @@ export default {
                     url:'#',
                 },
                 {
-                    text:'Characters',
+                    text:'Shop DC Collectibles',
                     url:'#',
                 }
             ],      
@@ -92,43 +92,43 @@ export default {
                     url:'#',
                 },
                 {
-                     text:'Characters',
+                     text:'Privacy policy',
                     url:'#',
                 },
                 {
-                     text:'Characters',
+                     text:'Ad Choices',
                     url:'#',
                 },
                 {
-                     text:'Characters',
+                     text:'Advertising',
                     url:'#',
                 },
                 {
-                     text:'Characters',
+                     text:'Jobs',
                     url:'#',
                 },
                 {
-                     text:'Characters',
+                     text:'Subscriptions',
                     url:'#',
                 },
                 {
-                     text:'Characters',
+                     text:'Talent Workshops',
                     url:'#',
                 },
                 {
-                     text:'Characters',
+                     text:'CPSC Certificates',
                     url:'#',
                 },
                 {
-                     text:'Characters',
+                     text:'Ratings',
                     url:'#',
                 },
                 {
-                     text:'Characters',
+                     text:'Shop Help',
                     url:'#',
                 },
                 {
-                     text:'Characters',
+                     text:'Contact Us',
                     url:'#',
                 },              
             ],
@@ -138,19 +138,19 @@ export default {
                     url:'#',
                 },
                 {
-                     text:'Characters',
+                     text:'MAD Magazine',
                     url:'#',
                 },
                 {
-                     text:'Characters',
+                     text:'DC Kids',
                     url:'#',
                 },
                 {
-                     text:'Characters',
+                     text:'DC Universe',
                     url:'#',
                 },
                 {
-                     text:'Characters',
+                     text:'DC Power Visa',
                     url:'#',
                 },
             ]
@@ -177,7 +177,7 @@ export default {
   }
 
   .logo-pa{
-    margin:-50px 0;
+    margin:-100px 0;
     z-index: 0;
   }
 </style>

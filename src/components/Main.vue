@@ -57,7 +57,7 @@ export default {
         background-color: $mainColor;
     }
     .logos-buy-comics{
-        height: 50px;
+        height: 40px;
         margin-right: 10px;
     }
 </style>
