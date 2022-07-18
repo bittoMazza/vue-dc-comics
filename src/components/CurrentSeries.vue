@@ -1,6 +1,7 @@
 <template>
-<div class="wrapper">
-    <div class="container py-5 d-flex flex-wrap">
+<div class="wrapper"> 
+    <div class="container py-3 d-flex flex-wrap position-relative">
+        <span class="current-series-title"> CURRENT SERIES </span>
         <CardCurrSeries v-for="(card,index) in SeriesInfo" 
         :key="index"
         :urlImage='card.thumb'
@@ -8,6 +9,10 @@
         :seriesName='card.series'
         :seriesType='card.type'/>
      </div>
+     <div class="text-center"> 
+        <button class="load-more-btn"> LOAD MORE </button>
+     </div>
+
 </div>
 
 </template>
@@ -98,8 +103,27 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../styles/variable.scss";
     .wrapper{
-        background-color: black;
+        background-color: rgb(26, 26, 26);
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .load-more-btn{
+        background-color: $mainColor;
+        color: white;
+        font-weight: bold;
+        padding: 5px 50px;
+    }
+    .current-series-title{
+        position: absolute;
+        top: -60px;
+        left: 27px;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 10px 20px;
+        color: white;
+        background-color: $mainColor;
     }
      
 </style>

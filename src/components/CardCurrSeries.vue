@@ -24,9 +24,11 @@ export default {
     .series-card{
         width: calc((100%/ 6) - 30px );
         margin: 0 15px 20px 15px;
+        .container-card-image{
+        }
         .card-image{
             width: 100%;
-            padding-bottom: 10px;
+            margin-bottom: 10px;
         }
          .card-title{
             color:white;
