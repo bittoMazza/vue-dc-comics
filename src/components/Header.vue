@@ -5,7 +5,7 @@
       <nav class="header-nav">
         <ul>
           <li v-for="(links,index) in headerLinkList" :key="index">
-           <a href="#">{{ links.text }}</a> 
+           <a :href="links.url">{{ links.text }}</a> 
           </li>
         </ul>
       </nav>

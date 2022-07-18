@@ -7,13 +7,13 @@
                 <ul>
                     <h3 class="text-white">DC COMICS</h3>
                     <li v-for="(links,index) in dcComicsList" :key="index">
-                        <a href=""> {{ links.text }}</a>                      
+                        <a :href="links.url"> {{ links.text }}</a>                      
                     </li>
                 </ul>
                 <ul>
                     <h3 class="text-white">SHOP</h3>
                     <li v-for="(links,index) in shopList" :key="index">
-                       <a href=""> {{ links.text }}</a>  
+                       <a :href="links.url"> {{ links.text }}</a>  
                     </li>
                 </ul>
             </div>
@@ -21,7 +21,7 @@
                   <ul>
                     <h3 class="text-white">DC</h3>
                     <li v-for="(links,index) in dcInfo" :key="index">
-                        <a href=""> {{ links.text }}</a>  
+                        <a :href="links.url"> {{ links.text }}</a>  
                     </li>
                 </ul>
             </div>
@@ -29,13 +29,13 @@
                   <ul>
                     <h3 class="text-white">SITES</h3>
                     <li v-for="(links,index) in externalSite" :key="index">
-                        <a href=""> {{ links.text }}</a>  
+                        <a :href="links.url"> {{ links.text }}</a>  
                     </li>
                 </ul>
             </div>
           </div>
           <div class="col-6">
-            <img class="w-100 position-relative logo-pa" src="../assets/img/dc-logo-bg.png" alt="">
+            <img class="w-100 position-relative logo-dc-bg" src="../assets/img/dc-logo-bg.png" alt="">
           </div>
         </div>
       </div>
