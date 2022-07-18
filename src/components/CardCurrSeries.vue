@@ -27,8 +27,10 @@ export default {
         .container-card-image{
         }
         .card-image{
-            width: 100%;
-            margin-bottom: 10px;
+            width:180px;
+            height:180px;
+            object-fit: cover;     
+            object-position: top; 
         }
          .card-title{
             color:white;
@@ -36,6 +38,12 @@ export default {
             text-transform: uppercase;
         }
     }
+
+/*     @media screen and (max-width: 1200px) {
+  .series-card{
+    width: calc((100% / 4) - 30px);
+  }
+} */
    
 </style>
 
