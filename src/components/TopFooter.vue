@@ -176,7 +176,7 @@ export default {
     }
   }
 
-  .logo-pa{
+  .logo-dc-bg{
     margin:-100px 0;
     z-index: 0;
   }

@@ -1,6 +1,6 @@
 <template>
 <div class="wrapper">
-    <div class="container py-5">
+    <div class="container py-5 d-flex flex-wrap">
         <CardCurrSeries v-for="(card,index) in SeriesInfo" 
         :key="index"
         :urlImage='card.thumb'
