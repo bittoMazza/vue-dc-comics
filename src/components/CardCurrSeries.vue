@@ -1,8 +1,9 @@
 <template>
   <div class="series-card">
-    <a href="#" class="container-card-image" >
+    <div href="#" class="container-card-image position-relative" >
+        <span class="price-container"> {{ seriesPrice }}</span>
         <img class="card-image" :src="urlImage" :alt="seriesName">
-    </a>
+    </div>
     <div>
         <span class="card-title">{{ seriesName }} </span>
     </div>
@@ -21,10 +22,29 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../styles/variable.scss";
+
     .series-card{
         width: calc((100%/ 6) - 30px );
         margin: 0 15px 20px 15px;
         .container-card-image{
+            &:hover .price-container{
+                display: inline-block;
+            }
+        }
+
+        .price-container{
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color: white;
+            padding: 5px;
+            border-radius: 10px;
+            background-color: $mainColor;
+            opacity: 0.9;
+            font-size: 22px;
         }
         .card-image{
             width:180px;
@@ -39,11 +59,11 @@ export default {
         }
     }
 
-/*     @media screen and (max-width: 1200px) {
+     @media screen and (max-width: 1200px) {
   .series-card{
     width: calc((100% / 4) - 30px);
   }
-} */
+}
    
 </style>
 

@@ -125,5 +125,6 @@ export default {
         color: white;
         background-color: $mainColor;
     }
+    
      
 </style>
